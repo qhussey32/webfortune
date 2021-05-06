@@ -24,3 +24,7 @@ python3 -m virtualenv env
 source env/bin/activate
 
 pip3 install -r requirements.text
+
+HOW TO RUN
+
+To run the webserver and type FLASK_APP=appserver.py flask run --host=0.0.0.0. Then in the browser of your choice type <your_ip_address>:5000.
