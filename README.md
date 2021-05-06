@@ -1,6 +1,7 @@
 
 
 #WEBFORTUNE
+
 ![python-app.yml](https://github.com/github/qhussey32/webfortune/actions/workflows/python-app.yml/badge.svg)
 
 
