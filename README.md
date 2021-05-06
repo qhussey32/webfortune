@@ -1,4 +1,8 @@
+
+
 #WEBFORTUNE
+![python-app.yml](https://github.com/github/qhussey32/webfortune/actions/workflows/python-app.yml/badge.svg)
+
 
 In this program the user will communicatewith the command line through the webserver to get fortunes, use cowsay, or both.
 
@@ -16,5 +20,7 @@ LOCAL USE
 follow these steps.
 
 python3 -m virtualenv env
+
 source env/bin/activate
-pip3 install -r requirements.txt
+
+pip3 install -r requirements.text
