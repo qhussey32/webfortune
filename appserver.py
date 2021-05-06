@@ -3,7 +3,7 @@ import os
 import subprocess
 
 app = Flask(__name__)
-app.secret_key = b'dfvjwewonl_x#pi*CO0@^z'
+app.secret_key = b'mskdmco2223405'
 
 @app.route('/')
 def index():
