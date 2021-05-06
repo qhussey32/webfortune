@@ -17,3 +17,8 @@ def test_cowsay(app, client):
     assert message in page_output
     assert '<pre>' in page_output and '</pre>' in page_output
 
+def test_fortune(app, client):
+    res = client.get('/fortune/')
+    assert res.status_code == 200
+    page_output = res.get_data(as_text=True)
+    assert '<pre>' in page_output and '</pre>' in page_output
